@@ -1,0 +1,15 @@
+yt-dlp>=2024.1.0
+faster-whisper>=1.0.0
+opencv-python-headless>=4.9
+mediapipe>=0.10
+librosa>=0.10
+pydantic>=2.5
+streamlit>=1.30
+pytest>=8.0
+python-dotenv>=1.0
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12
+
+nvidia-cublas-cu12; sys_platform == 'win32' or sys_platform == 'linux'
+nvidia-cudnn-cu12>=9,<10; sys_platform == 'win32' or sys_platform == 'linux'

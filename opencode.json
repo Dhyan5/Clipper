@@ -1,0 +1,19 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "lsp": {
+        "custom-lsp": {
+            "command": [
+                "your-lsp-binary",
+                "--stdio"
+            ],
+            "extensions": [
+                ".ext"
+            ]
+        }
+    },
+    "permission": {
+        "edit": "allow",
+        "bash": "allow",
+        "lsp": "allow"
+    }
+}
